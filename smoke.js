@@ -400,7 +400,7 @@
 			}
 			
 			smoke.i = 0;
-			document.body.removeChild(box);
+			box.innerHTML = '';
 		},
 	
 		alert: function (e, f, g) {
